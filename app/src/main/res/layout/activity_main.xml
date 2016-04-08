@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.student.lab09_dialog.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialog"
+        android:textAllCaps="false"
+        android:text="AlertDialog OK"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogYesNo"
+        android:textAllCaps="false"
+        android:text="AlertDialog YES-NO"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogYesNoCancel"
+        android:textAllCaps="false"
+        android:text="AlertDialog YES-NO-CANCEL"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogItems"
+        android:textAllCaps="false"
+        android:text="AlertDialog Items"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogMultiChoice"
+        android:textAllCaps="false"
+        android:text="AlertDialog MultiChoice"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogSingleChoice"
+        android:textAllCaps="false"
+        android:text="AlertDialog SingleChoice"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickAlertDialogMyDialogFragment"
+        android:textAllCaps="false"
+        android:text="MyDialogFragment"
+        />
+
+</LinearLayout>
